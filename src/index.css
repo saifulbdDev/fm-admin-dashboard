@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.sidebar-transition{
+    transition: margin-left .3s ease-in-out,width .3s ease-in-out;
+}
+.sidebar-child-transition{
+    transition: margin-left .3s linear,opacity .3s ease,visibility .3s ease;
+
+}
+.editor-container {
+    min-width: 100%!important;
+    min-height: 350px!important
+}
+
+.ck-editor__editable[role=textbox] {
+    min-width: 100%!important;
+    width: 600px;
+    min-height: 350px!important
+}
+
+.ck-editor__editable {
+    min-width: 100%!important;
+    min-height: 300px!important
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  .rotate {
+    animation: rotation 2s infinite linear;
+  }
+
+.menu-outer-top .Select-menu-outer {
+    bottom: 35px!important;
+    border-bottom-right-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    border-top-right-radius: 4px!important;
+    border-top-left-radius: 4px!important;
+}

@@ -1,0 +1,28 @@
+const PathConstants = {
+  HOME: "/admin",
+  BLOGLIST: "/admin/blog-list",
+  BLOGADD: "/admin/blog-add",
+  BLOGEDIT: "/admin/blog-edit/:blog_id",
+  BLOGDETAILS: "/admin/blog-detail/:blog_id",
+  ACCORDIONLIST: "/admin/accordion-list",
+  ACCORDIONADD: "/admin/accordion-add",
+  ACCORDIONUPDATE: "/admin/accordion-edit/:id",
+  TAGLIST: "/admin/tag-list",
+  TAGADD: "/admin/tag-add",
+  TAGUPDATE: "/admin/tag-edit/:id",
+  EXPLORELIST: "/admin/explore-list",
+  EXPLOREADD: "/admin/explore-add",
+  EXPLOREUPDATE: "/admin/explore-edit/:id",
+ AUTHORLIST: "/admin/author-list",
+ AUTHORADD: "/admin/author-add",
+ AUTHORUPDATE: "/admin/author-edit/:id",
+ PAGELIST: "/admin/page-list",
+ PAGEADD: "/admin/page-add",
+ PAGEUPDATE: "/admin/page-edit/:id",
+ PAGEDETAILS: "/admin/page-detail/:page_id",
+ SNIPPETLIST: "/admin/snippet-list",
+ SNIPPETUPDATE: "/admin/snippet-edit/:id",
+ SNIPPETADD: "/admin/snippet-add",
+};
+
+export default PathConstants;
